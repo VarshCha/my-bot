@@ -1,7 +1,7 @@
 from openai import OpenAI
 import streamlit as st
 
-st.title("Ask Saai ur dosth")
+st.title("Ask Princy")
 
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
